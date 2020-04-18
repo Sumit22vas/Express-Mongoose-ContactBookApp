@@ -31,4 +31,4 @@ localhost:3000
 Front-end Design and Libraries :- 
 Bootstrap CDN, JQUERY, JQUERY Datatable 
 
-NPM packages :- mongoose, express, body-parser,express-handlebarsta
+NPM packages :- mongoose, express, body-parser,express-handlebars
