@@ -1,0 +1,78 @@
+<div class="container">
+    <h2 class="text-center">Contact App</h2>
+    <br>
+    <hr>
+    <div id="alertBox">
+
+    </div>
+  <div class="row">
+    <div class="col-md-4">
+        <h3 id="title">Add Contact</h3>
+        <form>
+            <div class="form-group">
+                <input type="hidden" id="id" value="">
+                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">+91</span>
+                </div>
+            <input type="number" id="phone" class="form-control" placeholder="Enter Mobile Number" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="address" rows="3" placeholder="Enter Address"></textarea>
+            </div>
+            <button type="button" class="btn btn-success btn-lg btn-block" id="savebtn">Save</button>
+        </form>
+    </div>
+    <div class="col-md-8">
+        <table class="table" id="dataTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" width="5%">#</th>
+                <th scope="col" width="25%">Name</th>
+                <th scope="col" width="20">Phone</th>
+                <th scope="col"width="30">E-mail</th>
+                <th scope="col"width="20" class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody id='tbody'>
+
+        </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+
+<!-- view Modal -->
+<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade modal-small" id="delModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h6>Are you Sure You Want To Delete This Contact ?</h6>
+      </div>
+      <div class="modal-body" id="delmodal-body">
+
+      </div>
+    </div>
+  </div>
+</div>
