@@ -4,9 +4,9 @@
   "description": "Contact Book To Manage All Contacts.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "Sumit Vaswani",
+  "author": "sumit22vas",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
